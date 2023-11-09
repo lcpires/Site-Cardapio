@@ -1,0 +1,118 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --fonte1: 'Poppins', Verdana, sans-serif;
+}
+
+body {
+    font-family: var(--fonte1);
+}
+
+header {
+    background-color: #006225;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.cabeçalho-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 20px 0px 20px;
+    max-width: 600px;
+}
+
+#cardapio {
+    font-family: var(--fonte1);
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: -25px;
+}
+
+.menu {
+    background-color: #ffffff;
+    border-radius: 0px 0px 10px 15px;
+    box-shadow: 1px 1px 5px #000000;
+    padding: 15px;
+    position: sticky;
+    top: 0px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+nav > a {
+    font-family: var(--fonte1);
+    font-size: 17px;
+    font-weight: 400;
+    color: #ffffff;
+    background-color: #006225;
+    border-radius: 20px;
+    padding: 7px 10px;
+    text-decoration: none;
+    margin: 5px;
+}
+
+.title-header > h1 {
+    font-family: var(--fonte1);
+    font-weight: 500;
+    font-size: 40px;
+    padding-left: 10px;
+    width: 100%;
+    color: #ffffff;
+    text-shadow: 1px 1px 5px #00000091;
+}
+
+.texto-pt-executivo > p {
+    padding: 0px 10px;
+}
+
+.logo1 {
+    width: 20%;
+    padding: 30px 15px 30px 15px;
+    background-color: #ffffff
+}
+
+section > div {
+    display: flex;
+    flex-direction: row;
+    background-color: #dfdfdf;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.img-pts {
+    width: 30vw;
+    max-width: 200px;
+}
+
+section > h1 {
+    padding: 20px 20px 5px 20px;
+}
+
+.texto-pt {
+    padding-left: 20px;
+}
+
+.texto-pt > p {
+    height: 150;
+}
