@@ -45,7 +45,7 @@ header {
 .menu {
     background-color: #ffffff;
     border-radius: 0px 0px 10px 15px;
-    box-shadow: 1px 1px 5px #000000;
+    box-shadow: 1px 4px 5px #0000005b;
     padding: 15px;
     position: sticky;
     top: 0px;
