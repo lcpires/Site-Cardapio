@@ -12,18 +12,23 @@
     --fonte1: 'Poppins', Verdana, sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: var(--fonte1);
 }
 
 header {
     background-color: #006225;
-    width: 100%;
+    box-shadow: 1px 4px 5px #0000005b;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     position: relative;
+    width: 100%;
 }
 
 .cabeçalho-header {
@@ -42,33 +47,8 @@ header {
     margin-bottom: -25px;
 }
 
-.menu {
-    background-color: #ffffff;
-    border-radius: 0px 0px 10px 15px;
-    box-shadow: 1px 4px 5px #0000005b;
-    padding: 15px;
-    position: sticky;
-    top: 0px;
-}
-
-nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-content: center;
-    flex-wrap: wrap;
-}
-
-nav > a {
-    font-family: var(--fonte1);
-    font-size: 17px;
-    font-weight: 400;
-    color: #ffffff;
-    background-color: #006225;
-    border-radius: 20px;
-    padding: 7px 10px;
-    text-decoration: none;
-    margin: 5px;
+main {
+    padding-bottom: 300px;
 }
 
 .title-header > h1 {
@@ -115,4 +95,33 @@ section > h1 {
 
 .texto-pt > p {
     height: 150;
+}
+
+.menu {
+    background-color: #ffffff;
+    border-radius: 10px 10px 0px 0px;
+    box-shadow: 1px -4px 5px #0000005b;
+    padding: 10px;
+    position: fixed;
+    bottom: 0px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+nav > a {
+    font-family: var(--fonte1);
+    font-size: 17px;
+    font-weight: 400;
+    color: #ffffff;
+    background-color: #006225;
+    border-radius: 20px;
+    padding: 7px 10px;
+    text-decoration: none;
+    margin: 5px;
 }
