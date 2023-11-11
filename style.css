@@ -29,6 +29,18 @@ header {
     justify-content: center;
     position: relative;
     width: 100%;
+    height: 30vh;
+}
+
+.logo-header {
+    background-color: #ffffff;
+    width: 100px;
+}
+
+.logo1 {
+    width: 30%;
+    padding: 30px 15px 30px 15px;
+    background-color: #ffffff
 }
 
 .cabeçalho-header {
@@ -63,12 +75,6 @@ main {
 
 .texto-pt-executivo > p {
     padding: 0px 10px;
-}
-
-.logo1 {
-    width: 20%;
-    padding: 30px 15px 30px 15px;
-    background-color: #ffffff
 }
 
 section > div {
