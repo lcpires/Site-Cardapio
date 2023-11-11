@@ -28,11 +28,15 @@ header {
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: 30vh;
+}
+
+.logo-header {
+    background-color: #ffffff;
+    box-shadow: 3px 1px 5px #0000005b;
 }
 
 .logo1 {
-    width: 50%;
+    width: 150px;
     padding: 30px 15px 30px 15px;
     background-color: #ffffff
 }
@@ -52,10 +56,14 @@ header {
     margin-bottom: -25px;
 }
 
+.title-header {
+    width: 100%;
+}
+
 .title-header > h1 {
     font-family: var(--fonte1);
     font-weight: 500;
-    font-size: 40px;
+    font-size: 35px;
     padding-left: 20px;
     width: 100%;
     color: #ffffff;
@@ -70,15 +78,23 @@ main {
     padding: 0px 10px;
 }
 
+section {
+    padding: 20px;
+}
+
+
+
 section > div {
     display: flex;
     flex-direction: row;
+    align-items: center;
     background-color: #dfdfdf;
-    margin: 10px;
+    margin: 10px auto;
     padding: 20px;
     border-radius: 10px;
-    height: 100%;
     max-height: 200px;
+    max-width: 1000px;
+
 }
 
 .img-pts {
