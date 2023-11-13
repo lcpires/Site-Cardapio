@@ -36,7 +36,7 @@ header {
 }
 
 .logo1 {
-    width: 150px;
+    width: 100px;
     padding: 30px 15px 30px 15px;
     background-color: #ffffff
 }
@@ -53,7 +53,7 @@ header {
     font-family: var(--fonte1);
     font-size: 30px;
     font-weight: 300;
-    margin-bottom: -25px;
+    margin-bottom: -20px;
 }
 
 .title-header {
@@ -63,7 +63,7 @@ header {
 .title-header > h1 {
     font-family: var(--fonte1);
     font-weight: 500;
-    font-size: 35px;
+    font-size: 40px;
     padding-left: 20px;
     width: 100%;
     color: #ffffff;
@@ -130,7 +130,7 @@ nav {
 
 nav > a {
     font-family: var(--fonte1);
-    font-size: 16px;
+    font-size: 17px;
     font-weight: 400;
     color: #ffffff;
     background-color: #006225;
