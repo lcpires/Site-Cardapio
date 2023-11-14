@@ -47,14 +47,13 @@ header {
     align-items: center;
     justify-content: center;
     padding: 0px 20px 0px 20px;
-    width: 90vw;
 }
 
 #cardapio {
     font-family: var(--fonte1);
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 300;
-    margin-bottom: -20px;
+    margin-bottom: -15px;
 }
 
 .title-header {
@@ -64,7 +63,7 @@ header {
 .title-header > h1 {
     font-family: var(--fonte1);
     font-weight: 500;
-    font-size: 40px;
+    font-size: 35px;
     padding-left: 20px;
     width: 100%;
     color: #ffffff;
