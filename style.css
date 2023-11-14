@@ -33,10 +33,11 @@ header {
 .logo-header {
     background-color: #ffffff;
     box-shadow: 3px 1px 5px #0000005b;
+    width: 25%;
 }
 
 .logo1 {
-    width: 100px;
+    width: 70%;
     padding: 30px 15px 30px 15px;
     background-color: #ffffff
 }
@@ -95,7 +96,7 @@ section > div {
 }
 
 .img-pts {
-    width: 30vw;
+    width: 30%;
     max-width: 200px;
 }
 
