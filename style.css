@@ -34,12 +34,12 @@ header {
     background-color: #ffffff;
     box-shadow: 3px 1px 5px #0000005b;
     width: 25%;
+    text-align: center;
 }
 
 .logo1 {
     width: 70%;
     padding: 30px 15px 30px 15px;
-    background-color: #ffffff
 }
 
 .cabeçalho-header {
@@ -104,12 +104,17 @@ section > h1 {
     padding: 20px 20px 5px 20px;
 }
 
+.texto-pt > h1 {
+    font-size: min(30px, 3vw);
+}
+
 .texto-pt {
     padding-left: 20px;
 }
 
 .texto-pt > p {
     height: 150;
+    font-size: min(20px, 3vw);
 }
 
 .menu {
