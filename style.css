@@ -78,13 +78,10 @@ section {
 section > div {
     display: flex;
     flex-direction: row;
-    align-items: center;
     background-color: #dfdfdf;
     margin: 10px auto;
-    padding: 20px;
     border-radius: 10px;
-    max-height: 200px;
-    max-width: 1000px;
+    max-width: 700px;
 
 }
 
@@ -99,6 +96,10 @@ section > h1 {
     padding-top: 10px;
 }
 
+.texto-pt {
+    padding: 10px 0px;
+}
+
 .texto-pt > h1 {
     font-size: min(20px, 4vw);
 }
@@ -109,13 +110,23 @@ section > h1 {
     color: #00000094;
 }
 
+.area-info > .preco-pt {
+    text-align: left;
+}
+
 .preco-pt {
+    display: flex;
+    flex-direction: column;
+    bottom: 0px;
+}
+
+.preco-pt > p {
+    text-align: right;
     color: #ffffff;
     background-color: #006226;
-    border-radius: 20px;
+    border-radius: 10px 0px ;
     padding: 3px 5px;
     margin-top: 5px;
-    width: 60px;
 }
 
 .menu {
