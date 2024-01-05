@@ -21,7 +21,7 @@ body {
 }
 
 header {
-    background-color: #006225;
+    background-color: #5a0101;
     box-shadow: 1px 4px 5px #0000005b;
     display: flex;
     flex-direction: column;
@@ -84,15 +84,16 @@ section > div {
     max-width: 700px;
 }
 
+.titulo-area {
+    max-width: 700px;
+    background-color: #ffffff;
+}
+
 .img-pts {
     width: 30%;
     max-width: 200px;
     padding-right: 20px;
-}
-
-section > h1 {
-    font-size: min(25px, 4vw);
-    padding-top: 10px;
+    border-radius: 10px;
 }
 
 .texto-pt {
@@ -107,20 +108,6 @@ section > h1 {
     height: 150;
     font-size: min(15px, 3vw);
     color: #00000094;
-}
-
-.preco-pt {
-    
-}
-
-.preco-pt > p {
-    
-    color: #ffffff;
-    background-color: #006226;
-    border-radius: 10px 0px ;
-    padding: 3px 5px;
-    margin-top: 5px;
-
 }
 
 .menu {
@@ -145,7 +132,7 @@ nav > a {
     font-size: 17px;
     font-weight: 400;
     color: #ffffff;
-    background-color: #006225;
+    background-color: #5a0101;
     border-radius: 20px;
     padding: 7px 10px;
     text-decoration: none;
