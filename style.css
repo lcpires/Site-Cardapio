@@ -28,7 +28,6 @@ header {
     align-items: center;
     justify-content: center;
     width: 100%;
-    border-radius: 0px 0px 10px 10px;
 }
 
 .logo-header {
@@ -68,18 +67,29 @@ header {
     text-shadow: 1px 1px 5px #00000091;
 }
 
+.endereco {
+    background-color: #dfdfdf;
+    font-size: 15px;
+    color: #0000009f;
+    box-shadow: 1px 4px 5px #0000003f;
+    text-align: center;
+    padding: 5px;
+    border-radius: 0px 0px 10px 10px;
+}
+
 main {
     padding-bottom: 300px;
 }
 
 section {
-    padding: 20px;
+    padding: 10px 20px;
 }
 
 section > div {
     display: flex;
     flex-direction: row;
     background-color: #dfdfdf;
+    box-shadow: 1px 4px 5px #0000003f;
     margin: 10px auto;
     border-radius: 10px;
     max-width: 700px;
@@ -88,6 +98,7 @@ section > div {
 .titulo-area {
     max-width: 700px;
     background-color: #ffffff;
+    box-shadow: none;
 }
 
 .titulo-area > h2 {
