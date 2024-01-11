@@ -68,17 +68,19 @@ header {
 }
 
 .endereco {
-    background-color: #dfdfdf;
-    font-size: 15px;
+    background-color: #d6d6d64d;
+    font-size: 13px;
     color: #0000009f;
-    box-shadow: 1px 4px 5px #0000003f;
+    box-shadow: 1px 2px 5px #0000003f;
     text-align: center;
-    padding: 5px;
+    padding: 4px;
     border-radius: 0px 0px 10px 10px;
 }
 
 main {
     padding-bottom: 300px;
+    background-color: #ffffff;
+
 }
 
 section {
@@ -88,21 +90,25 @@ section {
 section > div {
     display: flex;
     flex-direction: row;
-    background-color: #dfdfdf;
-    box-shadow: 1px 4px 5px #0000003f;
-    margin: 10px auto;
+    background-color: #d6d6d64d;
+    box-shadow: 1px 2px 5px #0000003f;
+    margin: 20px auto;
     border-radius: 10px;
     max-width: 700px;
 }
 
 .titulo-area {
+    display: flex;
+    justify-content: center;
     max-width: 700px;
-    background-color: #ffffff;
+    background-color: #ffffff00;
     box-shadow: none;
+    max-width: 700px;
 }
 
 .titulo-area > h2 {
     font-size: min(30px, 4.5vw);
+    margin: -10px 0px -20px 0px;
 }
 
 .img-pts {
@@ -125,6 +131,12 @@ section > div {
     color: #00000094;
 }
 
+hr {
+    margin: 10px 0px -10px 0px;
+    max-width: 700px;
+    margin: auto;
+}
+
 .menu {
     background-color: #ffffff;
     border-radius: 10px 10px 0px 0px;
@@ -144,7 +156,7 @@ nav {
 
 nav > a {
     font-family: var(--fonte1);
-    font-size: 17px;
+    font-size: 15px;
     font-weight: 400;
     color: #ffffff;
     background-color: #5a0101;
