@@ -67,7 +67,17 @@ header {
     text-shadow: 1px 1px 5px #00000091;
 }
 
+.endereco > img {
+    max-width: 15px;
+    max-height: 15px;
+    padding: 2px 5px;
+}
+
 .endereco {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     background-color: #d6d6d64d;
     font-size: 13px;
     color: #0000009f;
@@ -75,6 +85,11 @@ header {
     text-align: center;
     padding: 4px;
     border-radius: 0px 0px 10px 10px;
+}
+
+.endereco > a {
+    text-decoration: none;
+    color: #0000009f;
 }
 
 main {
