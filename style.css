@@ -135,6 +135,9 @@ section > div {
 
 .texto-pt {
     padding: 10px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .texto-pt > h1 {
@@ -144,6 +147,23 @@ section > div {
 .texto-pt > p {
     font-size: min(15px, 3vw);
     color: #00000094;
+}
+
+.area-saber-mais {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 10px;
+    align-items: center;
+}
+
+.botao-saber-mais {
+    background-color: #5a0101;
+    color: #ffffff;
+    padding: 5px 10px
+    ;
+    border-radius: 15px;
+    font-size: 15px;
 }
 
 hr {
