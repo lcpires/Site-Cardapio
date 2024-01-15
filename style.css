@@ -112,6 +112,10 @@ section > div {
     max-width: 700px;
 }
 
+.imgModal {
+    width: 50%;
+}
+
 .titulo-area {
     display: flex;
     justify-content: center;
@@ -133,7 +137,7 @@ section > div {
     border-radius: 10px;
 }
 
-.texto-pt {
+.area-info {
     padding: 10px 0px;
     display: flex;
     flex-direction: column;
@@ -157,13 +161,13 @@ section > div {
     align-items: center;
 }
 
-.botao-saber-mais {
+.botao-saber-mais, .buttonSaberMais {
     background-color: #5a0101;
     color: #ffffff;
-    padding: 5px 10px
-    ;
+    padding: 5px 10px;
     border-radius: 15px;
     font-size: 15px;
+    border: none;
 }
 
 hr {

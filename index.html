@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-
     <title>Cardápio</title>
 </head>
 
@@ -37,12 +36,13 @@
             <hr>
             <div>
                 <img class="img-pts" src="imagens/bolinho-de-bacalhau.jpg" alt="">
-                <div class="texto-pt">
-                    <div>
+                <div class="area-info">
+                    <div class="texto-pt">
                         <h1>
                             Bolinho de Bacalhau
                         </h1>
                         <p>
+
                             Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         </p>
                     </div>
@@ -58,8 +58,8 @@
             </div>
             <div>
                 <img class="img-pts" src="imagens/pastel-de-bacalhau.jpeg" alt="">
-                <div class="texto-pt">
-                    <div>
+                <div class="area-info">
+                    <div class="texto-pt">
                         <h1>
                             Pastel de Bacalhau
                         </h1>
@@ -71,16 +71,24 @@
                         <p>
                             R$ 7
                         </p>
-                        <p class="botao-saber-mais">
+                        <button class="buttonSaberMais">
                             Saber mais
-                        </p>
-                    </div>
+                        </button>
+                        <dialog>
+                            <h2>Nome do Prato</h2>
+                            <img class="imgModal" src="imagens/pastel-de-bacalhau.jpeg" alt="">
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. At voluptates quos, consequatur ab molestiae maxime quidem quaerat itaque excepturi quod vero officiis doloremque dolores. Fugiat, eligendi id. Ipsam, debitis repellendus?
+                            </p>
+                            <button class="buttonClosse">Voltar</button>
+                        </dialog>
+                    </div>        
                 </div>
             </div>
             <div>
                 <img class="img-pts" src="imagens/logo1.png" alt="">
-                <div class="texto-pt">
-                    <div>
+                <div class="area-info">
+                    <div class="texto-pt">
                         <h1>
                            Pastel de Qeuijo
                         </h1>
@@ -202,6 +210,7 @@
             </nav>
         </div>
     </footer>
+    <script src="scripts.js"></script>
 </body>
 
 </html>
