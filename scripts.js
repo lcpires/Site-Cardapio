@@ -1,11 +1,11 @@
 const button = document.querySelector(".buttonSaberMais")
 const modal = document.querySelector("dialog")
-const buttonClosse = document.querySelector("dialog .buttonClosse")
+const buttonClose = document.querySelector("dialog .buttonClose")
 
 button.onclick = function () {
     modal.showModal()
 }
 
-buttonClosse.onclick = function () {
+buttonClose.onclick = function () {
     modal.close()
 }
